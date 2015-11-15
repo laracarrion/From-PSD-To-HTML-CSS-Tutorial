@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title> Nociones básicas </title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/script.js"></script> 
+		<script type="text/javascript" src="js/jquery.js"> </script>
+		
+		<script type="text/javascript">
+    $(document).ready(function(){ 
+ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        }); 
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+ 
+    });
+</script>
+	</head>
+	
+	<body>
+	
+	<!-- Contenedor general (caja sin color) -->
+	<div id="general_container">
+		<!-- Contenedor header -->
+		<div id="header_container">
+	
+		<img alt="" src="images/h1.png" />
+		
+		</div>
+		
+		<!-- Contenedor de contenido (caja blanca) -->
+		<div id="content_container">
+			
+			<!-- Sidebar izquierda (caja amarilla) -->
+			<div id="left_sidebar">
+				<div class="images_box">
+							
+							<img alt="" src="images/navigation.png" />
+							<br/>
+							
+					</div>
+				<a href="index.html"><img alt="" src="images/menu_03.png" onmouseover="this.src='images/menu_over_03.png';" onmouseout="this.src='images/menu_03.png';" /></a>
+				<a href="que_necesitamos.html"><img alt="" src="images/menu_05.png" onmouseover="this.src='images/menu_over_05.png';" onmouseout="this.src='images/menu_05.png';"/></a>
+				<a href="algunas_nociones_antes_de_empezar.html"><img alt="" src="images/menu_06.png" onmouseover="this.src='images/menu_over_06.png';" onmouseout="this.src='images/menu_06.png';"/></a>
+				<a href="paso1_creando_un_nuevo_documento.html"><img alt="" src="images/menu_07.png" onmouseover="this.src='images/menu_over_07.png';" onmouseout="this.src='images/menu_07.png';"/></a>
+				<a href="paso2_estructura_del_documento.html"><img alt="" src="images/menu_08.png" onmouseover="this.src='images/menu_over_08.png';" onmouseout="this.src='images/menu_08.png';"/></a>
+				<a href="paso3_definiendo_el_background.html"><img alt="" src="images/menu_09.png" onmouseover="this.src='images/menu_over_09.png';" onmouseout="this.src='images/menu_09.png';"/></a>
+				<a href="paso4_creando_las_columnas.html"><img alt="" src="images/menu_10.png" onmouseover="this.src='images/menu_over_10.png';" onmouseout="this.src='images/menu_10.png';"/></a>
+				<a href="paso5_colocando_el_header.html"><img alt="" src="images/menu_11.png" onmouseover="this.src='images/menu_over_11.png';" onmouseout="this.src='images/menu_11.png';"/></a>
+				<a href="paso6_creando_el_menu.html"><img alt="" src="images/menu_12.png" onmouseover="this.src='images/menu_over_12.png';" onmouseout="this.src='images/menu_12.png';"/></a>
+				<a href="paso7_creando_barra_de_titulos.html"><img alt="" src="images/menu_13.png" onmouseover="this.src='images/menu_over_13.png';" onmouseout="this.src='images/menu_13.png';"/></a>
+				<a href="paso8_creando_el_footer.html"><img alt="" src="images/menu_14.png" onmouseover="this.src='images/menu_over_14.png';" onmouseout="this.src='images/menu_14.png';"/></a>
+				<a href="paso9_añadiendo_algunos_detalles.html"><img alt="" src="images/menu_15.png" onmouseover="this.src='images/menu_over_15.png';" onmouseout="this.src='images/menu_15.png';"/></a>
+				<a href="paso10_slicing.html"><img alt="" src="images/menu_16.png" onmouseover="this.src='images/menu_over_16.png';" onmouseout="this.src='images/menu_16.png';"/></a>
+				<a href="paso11_generando_html_css.html"><img alt="" src="images/menu_17.png" onmouseover="this.src='images/menu_over_17.png';" onmouseout="this.src='images/menu_17.png';"/></a>
+				<a href="paso12_añadiendo_contenido.html"><img alt="" src="images/menu_18.png" onmouseover="this.src='images/menu_over_18.png';" onmouseout="this.src='images/menu_18.png';"/></a>
+				<a href="el_resultado.html"><img alt="" src="images/menu_19.png" onmouseover="this.src='images/menu_over__19.png';" onmouseout="this.src='images/menu_19.png';"/></a>
+				<a href="ejercicios.html"><img alt="" src="images/menu_20.png" onmouseover="this.src='images/menu_over_19.png';" onmouseout="this.src='images/menu_20.png';"/></a>
+				<a href="referencias.html"><img alt="" src="images/menu_21.png" onmouseover="this.src='images/menu_over_20.png';" onmouseout="this.src='images/menu_21.png';"/></a>
+				<img alt="" src="images/menu_over__17.png"/>
+				
+			
+				
+				<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+  </p>
+  <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</p>
+            
+
+
+
+	<a href="http://www.w3.org/WAI/WCAG2AA-Conformance"><img alt="" src="images/w3caa.gif" /></a>
+				
+			</div>
+			
+			<!-- Contenido derecho (caja azul) -->
+			<div id="right_content">
+				<div class="images_box">
+					<img alt="" src="images/nociones_previas.png" />
+				</div>
+			
+				<div id="inner_box">
+					<div class="content_text">
+					Antes de empezar, es necesario saber algunos <span class="especial">conceptos básicos</span> sobre Photoshop. 
+					<br/> <br/>
+					
+					En la siguiente imagen se muestra el <span class="especial">entorno de trabajo</span> de Photoshop. 
+					<br/> <br/>
+						<div class="images_box">
+							<a href="captures/entorno_nociones.png"><img alt="" src="captures/entorno_nociones_peq.png" /></a>
+						</div>
+						<br/> <br/> 
+						
+					Nos centraremos en las partes <span class="especial">resaltadas</span> en rojo, que son las que utilizaremos a lo largo del tutorial. 
+					<br/>
+					<br/>
+					
+					<div class="titles">
+						<span class="references"><u>Menú superior</u></span>
+					</div>
+					<br/> 
+						<div class="images_box">
+							<img alt="" src="captures/menu_superior.png" />
+						</div>
+						<br/>
+						
+						<div class="content_text">
+							<ul>
+								<li><b><u>File</u></b>: Contiene las funciones necesarias para <span class="especial">crear</span> un nuevo documento, <span class="especial">guardarlo</span>, <span class="especial">exportarlo</span>, <span class="especial">imprimirlo</span>, etc.</li>
+								<li><b><u>Edit</u></b>: En esta sección se encuentran los comandos de <span class="especial">copiar</span>, <span class="especial">pegar</span>, <span class="especial">pegado especial</span>,<span class="especial">deshacer</span>...  </li>
+								<li><b><u>Image</u></b>: Contiene los comandos relacionados con la imagen, tales como <span class="especial">modos de color</span> (RGB, escala de grises...), <span class="especial">ajustes a nivel de capa</span>, <span class="especial">tamaño de la imagen</span>, <span class="especial">tamaño del lienzo</span>... </li>
+								<li><b><u>Layer</u></b>: Reúne todos los comandos de capa, tales como <span class="especial">nueva capa</span>, <span class="especial">duplicar capa</span>, <span class="especial">capas de ajuste</span>, <span class="especial">acoplar capas</span>...</li>
+								<li><b><u>Select</u></b>: Contiene funciones de <span class="especial">selección</span> </li>
+								<li><b><u>Filter</u></b>: Contiene <span class="especial">filtros</span> aplicables a nuestro lienzo </li>
+								<li><b><u>Analysis</u></b>: Contiene <span class="especial">escalas</span> y <span class="especial">reglas</span> aplicables a nuestro trabajo </li>
+								<li><b><u>3D</u></b>: Contiene comandos para trabajar con imágenes <span class="especial">3D</span></li>
+								<li><b><u>View</u></b>: Contiene funciones de <span class="especial">zoom</span>, <span class="especial">reglas</span>, <span class="especial">guías</span>, etc </li>
+								<li><b><u>Window</u></b>: En esta sección podemos seleccionar las <span class="especial">ventanas</span> que queremos que aparezcan en nuestro <span class="especial">entorno de trabajo</span></li>
+								<li><b><u>Help</u></b>: <span class="especial">ayuda</span> acerca del programa</li>
+								
+							</ul>
+							
+							<br/>
+					<br/>
+					
+					<div class="titles">
+						<span class="references"><u>Barra de herramientas</u></span>
+					</div>
+					<br/> 
+					
+					
+					<div class="images_box">
+							<img alt="" align="left" src="captures/toolbar.png" />
+						
+					</div>
+					<div class="little_box">
+					
+					<img alt="" src="captures/tb/tb_01.png" /> <b> Rectangular / Elliptical Marquee Tool (M):</b> Herramienta de <span class="especial">selección</span> rectangular / elíptica <br/> 
+					<img alt="" src="captures/tb/tb_04.png" /> <b> Move Tool (V): </b>Herramienta <span class="especial">mover</span> <br/>
+					<img alt="" src="captures/tb/tb_06.png" /> <b> Polygonal Lasso Tool (L): </b> Lazo <span class="especial">poligonal</span> (selección) <br/>
+					<img alt="" src="captures/tb/tb_07.png" /> <b> Magic Wand Tool (W): </b> Varita <span class="especial">mágica </span>(selección) <br/>
+					<img alt="" src="captures/tb/tb_09.png" /> <b> Slice Tool (C): </b> Herramienta de <span class="especial">corte</span><br/>
+					<img alt="" src="captures/tb/tb_10.png" /> <b> Eyedropper Tool (I): </b> <span class="especial">Gotero</span> (seleccionar color) <br/>
+					<img alt="" src="captures/tb/tb_12.png" /> <b> Healing Brush Tool (J): </b> <span class="especial">Tirita</span> (adopta un patrón determinado)  <br/>
+					<img alt="" src="captures/tb/tb_13.png" /> <b> Pencil Tool / Brush Tool (B): </b> Herramienta de <span class="especial">Lápiz / Pincel</span> <br/>
+					<img alt="" src="captures/tb/tb_15.png" /> <b> Clone Stamp Tool (S): </b>Herramienta <span class="especial">clonar</span> <br/>
+					<img alt="" src="captures/tb/tb_16.png" /> <b> Art History Brush Tool (Y)</b><br/>
+					<img alt="" src="captures/tb/tb_18.png" /> <b> Eraser Tool (E): </b> Borrador <br/>
+					<img alt="" src="captures/tb/tb_19.png" /> <b> Paint Bucket Tool (G): </b> Cubo (<span class="especial">relleno</span> color sólido / patrón) <br/>
+					<img alt="" src="captures/tb/tb_20.png" /> <b> Blur Tool: </b> Herramienta de <span class="especial">desenfoque</span> <br/>
+					<img alt="" src="captures/tb/tb_21.png" /> <b> Sponge / Burn / Dodge Tool (O): </b>Herramientas de <span class="especial">desaturación</span> y <span class="especial">oscurecimiento</span> <br/>
+					<img alt="" src="captures/tb/tb_22.png" /> <b> Pen Tool (P): </b> Herramienta de <span class="especial">pluma</span> <br/>
+					<img alt="" src="captures/tb/tb_23.png" /> <b> Horizontal Type Tool (T): </b> Herramienta de <span class="especial">texto</span><br/>
+					<img alt="" src="captures/tb/tb_24.png" /> <b> Path Selection Tool (A): </b> Puntero <span class="especial">normal</span> (ninguna acción) <br/>
+					<img alt="" src="captures/tb/tb_25.png" /> <b> Line / Rectangle / Ellipse /Polygon Tool (U): </b> Figuras <span class="especial">geométricas</span><br/>
+					<img alt="" src="captures/tb/tb_26.png" /> <b> Object Slide Tool (K): </b> Manejo de <span class="especial">objetos 3D</span> <br/>
+					<img alt="" src="captures/tb/tb_27.png" /> <b> Camera Zoom Tool (N): </b>Rotación de la <span class="especial">cámara 3D</span><br/>
+					<img alt="" src="captures/tb/tb_28.png" /> <b> Hand Tool (H): </b>Herramienta de <span class="especial">mano</span> <br/>
+					<img alt="" src="captures/tb/tb_29.png" /> <b> Zoom Tool (Z): </b> Herramienta para <span class="especial">zoom</span><br/>
+					
+					<img alt="" src="captures/tb/tb_30.png" /> <b> Set foreground / background color: </b> Seleccionar color <span class="especial">actual</span> / de <span class="especial">fondo</span> <br/>
+					
+					<img alt="" src="captures/tb/tb_31.png" /> <b> Edit in Quick Mask Mode (Q): </b> Herramienta de <span class="especial">máscara</span> <br/>
+					</div>
+					
+					
+					<br/>
+					<br/>
+					<div class="titles">
+						<span class="references"><u> Ajustes de elemento seleccionado </u></span>
+					</div>
+					<br/> 
+					
+					<div class="images_box">
+							<img alt="" src="captures/ajustes_elem_sel.png" />
+						
+					</div>
+					<br/>
+					Según el <span class="especial">elemento</span> que hayamos <span class="especial">seleccionado</span> en la <span class="especial">barra de herramientas</span>, tendremos unas <span class="especial">propiedades</span> u otras en esta barra, que sirve para <span class="especial">configurar las propiedades</span> del elemento seleccionado en ese momento. 
+					
+					<br/>
+					<br/>
+					<div class="titles">
+						<span class="references"><u> Capas </u></span>
+					</div>
+					<br/> 
+					
+						<div class="images_box">
+							<img alt="" align="left" src="captures/layers.png" />
+						
+					</div>
+					
+					<div class="little_box_2">
+					El <span class="especial">concepto de capa</span> es algo <span class="especial">muy importante</span> que debe estar muy claro antes de realizar cualquier trabajo en Photoshop. <br/><br/>
+					Las capas son la forma en que Photoshop <span class="especial">estructura</span> el trabajo. En otras palabras, las capas permiten que podamos tratar cada elemento <span class="especial">por separado</span> y aplicarle a cada uno unas características <span class="especial">especiales</span>, sin necesidad de tratar el trabajo como un todo en el que no se distinguen elementos. 
+					<br/> <br/>
+					De esta manera podremos mover y <span class="especial">caracterizar elementos</span> más fácilmente y obtener un trabajo <span class="especial">más dinámico</span>. 
+					<br/> <br/>
+					En la imagen podemos ver la <span class="especial">ventana de capas</span>. Desde aquí podremos caracterizar cada una de las capas gracias a lasdiferentes <span class="especial">funciones</span> incorporadas, crear nuevas capas, duplicar o eliminar las ya existentes y cambiar los modos de capa. <br/> <br/> <br/>
+					</div>
+					<br/> <br/> <br/>
+					
+						
+						<div class="images_box">
+						<a href="que_necesitamos.html"><img alt="" src="images/paso1_01.png" onmouseover="this.src='images/paso_2_01.png';" onmouseout="this.src='images/paso1_01.png';"/></a><img alt="" src="images/paso1_02.png" /><a href="paso1_creando_un_nuevo_documento.html"><img alt="" src="images/paso1_03.png" onmouseover="this.src='images/paso_2_03.png';" onmouseout="this.src='images/paso1_03.png';"/></a>
+						</div>
+							<a href="#" class="scrollup">Scroll</a>
+							
+						</div>
+									
+							 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+			
+		
+	
+	
+		
+	</body>
+
+</html>
