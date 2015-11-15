@@ -1,0 +1,190 @@
+body{
+	background-image: url('../images/background1.png');
+}
+
+#general_container{
+	width:1440px;
+	margin-left: auto;
+	margin-right: 400px;
+	height: 2000px;
+	
+
+}
+
+#header_container{
+	padding-left: 200px;
+	
+}
+
+/*Caja blanca*/
+#content_container{
+	
+	position:absolute;
+	padding: 10px;
+	width: 1000px;
+	margin-left: 200px;
+	font-family: verdana;
+	font-size: 20px;
+	
+}
+
+/*Caja amarilla */
+#left_sidebar{
+	
+	
+	float: left;
+	width: 200px;
+	height: inherit;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	background-image: url('../images/sidebar_pat.png');
+	border-radius:42px 0px 0px 0px;
+	border-color: white;
+	border-style: double;
+	font-size: 14px;
+	
+	
+}
+
+/*Caja azul*/
+#right_content{
+	
+	padding: 20px;
+	color: white;
+	margin-left: 230px;
+	width:730px;
+	border-width: 5px;
+	border-radius:0px 42px 0px 0px;
+	background-image: url('../images/column_pat.png');
+	border-color: white;
+	border-style: double;
+	
+	
+	
+	
+}
+
+.content_text{
+	font-size: 14px;
+	color:#004475;
+	font-family: verdana;
+	
+}
+
+
+#inner_box{
+	
+	background-image: url('../images/background_inner_box.png');
+	
+	width: 690px;
+	margin-top: 50px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	border-radius:30px;
+	border-style: dotted;
+	border-width: 2px;
+
+	
+}
+
+.little_box{
+	width:620px;
+	height: 750px;
+	margin-left:80px;
+}
+
+.little_box_2{
+
+	width:440px;
+	height: 350px;
+	margin-left:250px;
+}
+
+
+.images_box{
+	text-align: center;
+}
+
+.titles{
+	font-family: verdana;
+	font-size: 18px;
+	color: #0091ad;
+}
+
+.exercises_text{
+	font-family: verdana;
+	font-weight: bold;
+	color:#0ab3d9;
+	font-size: 20px;
+
+ 
+}
+
+.exercises_number{
+	font-family: verdana;
+	font-weight: bold;
+	color:#c60071;
+	font-size: 20px;
+	text-decoration: underline;
+ 
+}
+
+.references{
+	color:#c60071;
+	font-weight: bold;
+	
+	
+}
+
+.references{
+	color:#c60071;
+	font-weight: bold;
+	
+	
+}
+.pistas{
+	font-family: verdana;
+	font-weight: bold;
+	color:#061c5d;
+	font-size: 15px;
+
+ 
+}
+.especial{
+	font-weight:bold;
+	color:#0fb7dc;
+	
+}
+
+.especial2{
+	font-weight:bold;
+	color:#3110a5;
+	
+}
+
+
+
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.7;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: url('../images/icon_top.png') no-repeat;
+}
+
+a{
+	color:#0ab5db;
+}
+a:hover{
+	color:#3110a5;
+	font-weight: bold;
+	background-color:#fdccf3;
+}
+
